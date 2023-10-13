@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage              = 'https://github.com/heshesh2010/ZLImageEditorSiyaq'
   s.license               = { :type => "MIT", :file => "LICENSE" }
 
-  s.author                = {'heshesh2010' => 'heshesh2010@gmail.com'}
+  s.author                = {'longitachi' => 'longitachi@163.com'}
   s.source                = {:git => 'https://github.com/heshesh2010/ZLImageEditorSiyaq.git', :tag => s.version}
 
   s.ios.deployment_target = '9.0'

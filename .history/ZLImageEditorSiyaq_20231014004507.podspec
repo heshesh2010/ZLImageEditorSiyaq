@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name                  = 'ZLImageEditorSiyaq'
   s.version               = '1.2.1'
-  s.summary               = 'A powerful image editor framework'
+  s.summary               = 'A powerful image editor framework. Supports graffiti, cropping, mosaic, text stickers, picture stickers, filters, adjust(brightness, contrast, saturation).'
 
-  s.description           = ' A powerful image editor framework. Supports graffiti, cropping, mosaic, text stickers, picture stickers, filters, adjust(brightness, contrast, saturation).'
+  s.description           = <<-DESC
   s.homepage              = 'https://github.com/heshesh2010/ZLImageEditorSiyaq'
   s.license               = { :type => "MIT", :file => "LICENSE" }
 
-  s.author                = {'heshesh2010' => 'heshesh2010@gmail.com'}
+  s.author                = {'longitachi' => 'longitachi@163.com'}
   s.source                = {:git => 'https://github.com/heshesh2010/ZLImageEditorSiyaq.git', :tag => s.version}
 
   s.ios.deployment_target = '9.0'
