@@ -33,7 +33,7 @@ class ZLInputTextViewController: UIViewController {
     
     private var text: String
 
-   private var font: UIFont? = UIFont(name: "IBMPlexSansArabic-Regular", size: 15)  ?? UIFont.systemFont(ofSize: 15)
+  private  var font = UIFont(name: "IBMPlexSansArabic-Regular", size: 15)  ?? UIFont.systemFont(ofSize: 15)
 
     
     private var currentColor: UIColor {

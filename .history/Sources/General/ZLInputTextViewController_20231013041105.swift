@@ -33,8 +33,7 @@ class ZLInputTextViewController: UIViewController {
     
     private var text: String
 
-   private var font: UIFont? = UIFont(name: "IBMPlexSansArabic-Regular", size: 15)  ?? UIFont.systemFont(ofSize: 15)
-
+    private var font: UIFont = .boldSystemFont(ofSize: ZLTextStickerView.fontSize)
     
     private var currentColor: UIColor {
         didSet {
