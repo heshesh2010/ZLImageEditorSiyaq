@@ -27,7 +27,7 @@
 import UIKit
 
 class ZLTextStickerView: ZLBaseStickerView {
-    static let fontSize: CGFloat = 10
+    static let fontSize: CGFloat = 32
     
     private static let edgeInset: CGFloat = 10
     
@@ -42,7 +42,7 @@ class ZLTextStickerView: ZLBaseStickerView {
     
     var textColor: UIColor
 
-    var font: UIFont(name: "IBMPlexSansArabic-Regular", size: 15) 
+    var font: UIFont?
     
     var style: ZLInputTextStyle
     
