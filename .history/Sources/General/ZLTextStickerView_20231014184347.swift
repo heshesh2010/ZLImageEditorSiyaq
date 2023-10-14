@@ -42,7 +42,7 @@ class ZLTextStickerView: ZLBaseStickerView {
     
     var textColor: UIColor
 
-    var font = UIFont(name: "IBMPlexSansArabic-Regular", size: 15)  ?? UIFont.systemFont(ofSize: 15)
+    var font = UIFont(name: "IBMPlexSansArabic-Regular", size: 15) 
     
     var style: ZLInputTextStyle
     
