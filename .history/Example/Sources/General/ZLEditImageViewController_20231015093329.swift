@@ -94,25 +94,7 @@ open class ZLEditImageViewController: UIViewController {
     
     open lazy var mainScrollView: UIScrollView = {
         let view = UIScrollView()
-
-
-    // gradient color background
-        let gradientLayer = CAGradientLayer()
-
-   
-
-        gradientLayer.colors = [
-        UIColor(red: 18.0/255.0, green: 57.0/255.0, blue: 69.0/255.0, alpha: 1.0).cgColor,
-         UIColor(red: 153.0/255.0, green: 127.0/255.0, blue: 94.0/255.0, alpha: 1.0).cgColor]
-
-
-         gradientLayer.locations = [0.0, 1.0]
-           gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.0)
-            gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
-        gradientLayer.frame = view.bounds
-        view.layer.addSublayer(gradientLayer)
-
-      //  view.backgroundColor = .black
+        view.backgroundColor = .black
         view.minimumZoomScale = 1
         view.maximumZoomScale = 3
         view.delegate = self
